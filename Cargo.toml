@@ -1,0 +1,23 @@
+[package]
+name = "peep"
+version = "0.1.0"
+authors = ["Ell <alan@cattes.us>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+anyhow = "1.0.38"
+image = "0.23.13"
+winit = "0.24.0"
+cgmath = "0.18.0"
+env_logger = "0.8.3"
+log = "0.4.14"
+wgpu = "0.6.2"
+futures = "0.3.12"
+bytemuck = { version = "1.5.1", features = [ "derive" ] }
+
+[build-dependencies]
+anyhow = "1.0.38"
+shaderc = "0.7.1"
+fs_extra = "1.2.0"
+glob = "0.3.0"
